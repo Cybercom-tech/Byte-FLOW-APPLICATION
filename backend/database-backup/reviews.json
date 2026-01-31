@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "69562099419d09994c48109d",
+    "teacherId": "69522673cb1dfb9cf65814f7",
+    "studentId": "6952130ae1d77d577e8d3813",
+    "courseId": "1",
+    "rating": 2,
+    "reviewText": "not good",
+    "status": "active",
+    "createdAt": "2026-01-01T07:22:01.472Z",
+    "updatedAt": "2026-01-01T07:22:01.472Z",
+    "__v": 0
+  }
+]

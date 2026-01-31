@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "695360b2160d6ceea3d32219",
+    "receiverId": "6952119269f77c3e495f954a",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"npm run dev\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:18:42.467Z",
+    "updatedAt": "2025-12-30T05:18:54.410Z"
+  },
+  {
+    "_id": "695360b2160d6ceea3d3221a",
+    "receiverId": "6952119269f77c3e495f954f",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"npm run dev\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:18:42.468Z",
+    "updatedAt": "2025-12-30T06:36:59.782Z"
+  },
+  {
+    "_id": "6953618c160d6ceea3d3253d",
+    "receiverId": "6952119269f77c3e495f954a",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"w course\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:22:20.740Z",
+    "updatedAt": "2025-12-30T05:22:47.603Z"
+  },
+  {
+    "_id": "6953618c160d6ceea3d3253e",
+    "receiverId": "6952119269f77c3e495f954f",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"w course\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:22:20.740Z",
+    "updatedAt": "2025-12-30T06:36:59.783Z"
+  },
+  {
+    "_id": "6953618d160d6ceea3d3254c",
+    "receiverId": "6952119269f77c3e495f954a",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"w course\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:22:21.182Z",
+    "updatedAt": "2025-12-30T05:22:47.596Z"
+  },
+  {
+    "_id": "6953618d160d6ceea3d3254d",
+    "receiverId": "6952119269f77c3e495f954f",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "course_submitted",
+    "message": "New course \"w course\" submitted by nimra for approval.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T05:22:21.182Z",
+    "updatedAt": "2025-12-30T06:36:59.762Z"
+  },
+  {
+    "_id": "69537561e9a48c00e55aa66d",
+    "receiverId": "6952119269f77c3e495f954f",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "new_payment",
+    "message": "New payment of PKR 9,199 received from \"laiba\" for \"Course\". Payment verification required.",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2025-12-30T06:46:57.424Z",
+    "updatedAt": "2025-12-30T06:48:34.302Z"
+  },
+  {
+    "_id": "69562885ab779a9bbfe2f2b2",
+    "receiverId": "6952125168adf39f123d1b5a",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "Announcement",
+    "message": "ANNONCEMING DAT UR A KHOITAAAA\n",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2026-01-01T07:55:49.975Z",
+    "updatedAt": "2026-01-01T07:56:13.951Z"
+  },
+  {
+    "_id": "695628acab779a9bbfe2f351",
+    "receiverId": "6952125168adf39f123d1b5a",
+    "senderId": "69522673cb1dfb9cf65814f7",
+    "type": "Reminder",
+    "message": "Reinding u of class today acha ",
+    "isRead": true,
+    "__v": 0,
+    "createdAt": "2026-01-01T07:56:28.803Z",
+    "updatedAt": "2026-01-01T07:57:47.598Z"
+  }
+]

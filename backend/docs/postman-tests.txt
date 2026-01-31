@@ -1,0 +1,138 @@
+1️⃣ Postman Setup
+
+ Signup
+
+ Method: POST
+ URL: `http://localhost:5000/api/auth/signup`
+ Body → raw → JSON
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "123456",
+  "userType": "teacher"
+}
+
+Login
+
+Method: POST
+URL: `http://localhost:5000/api/auth/login`
+Body → raw → JSON
+
+{
+  "email": "johndoe@example.com",
+  "password": "123456"
+}
+
+
+2️⃣ Postman setup for Courses CRUD
+
+{
+  "courseTitle": "Intro to AI",
+  "shortDescription": "Learn AI basics",
+  "longDescription": "This course covers AI fundamentals...",
+  "courseCategories": ["Artificial Intelligence (AI)"],
+  "courseLevel": ["Beginner"],
+  "totalPriceOfCourse": "100",
+  "originalPriceOfCourse": "120",
+  "courseImage": "https://example.com/course.jpg",
+  "learningOutcomeOfCourse": "Understand AI concepts",
+  "requirementForCourse": "Basic Python",
+  "contentOfCourse": [
+    { "sectionTitle": "Introduction", "topicTitle": "What is AI?", "estimatedTime": "30 min" }
+  ]
+}
+
+Expected Response: `201 Created` + course data.
+
+ 2. Get All Courses
+
+ Method: GET
+ URL: `http://localhost:5000/api/courses/courses`
+ Authorization: Bearer Token (optional if public)
+ Expected Response: Array of all courses.
+
+3. Get Teacher’s Courses
+
+ Method: GET
+ URL: `http://localhost:5000/api/courses/my-courses`
+ Authorization: Bearer Token of teacher
+ Expected Response: Array of courses created by the logged-in teacher.
+
+4. Update Course
+
+ Method: PUT
+ URL: `http://localhost:5000/api/courses/course/:courseId`
+ Replace `:courseId` with the actual `_id` of the course.
+ Authorization: Bearer Token of teacher
+ Body (raw JSON):
+{
+  "courseTitle": "Intro to AI Updated",
+  "totalPriceOfCourse": "110"
+}
+Expected Response: Updated course object.
+
+5. Delete Course
+
+ Method: DELETE
+ URL: `http://localhost:5000/api/courses/course/:courseId`
+ Authorization: Bearer Token of teacher
+ Expected Response: Success message, course removed.
+
+💡 Tips for Postman:
+
+1. Use Authorization → Bearer Token for all teacher routes.
+2. Use `:courseId` dynamically by copying from the response of create/get endpoints.
+3. Save this info in a `.txt` file for future reference, with sample JSON and route URLs.
+
+
+
+
+### 1️⃣ Add Learning Outcomes
+
+**Method:** `POST`
+**URL:** `http://localhost:5000/api/courses/:courseId/learning-outcome`
+
+**Headers:**
+
+```
+Key: Authorization
+Value: Bearer <YOUR_JWT_TOKEN>
+```
+
+**Body (raw JSON):**
+
+```json
+{
+  "learningOutcomeOfCourse": [
+    "Understand the basics of AI",
+    "Build a simple AI model",
+    "Deploy AI application"
+  ]
+}
+```
+
+**Notes:**
+
+* Replace `:courseId` with the actual course `_id` from your database.
+* Make sure `learningOutcomeOfCourse` is an **array**.
+
+### 2️⃣ Add Course Requirements
+
+**Method:** `POST`
+**URL:** `http://localhost:5000/api/courses/:courseId/requirements`
+
+**Body (raw JSON):**
+
+{
+  "requirements": [
+    "Laptop with internet",
+    "Basic programming knowledge",
+    "Installed Python 3.8+"
+  ]
+}
+```
+
+**Notes:**
+
+* Replace `:courseId` with the course `_id`.
+* `requirements` must also be an **array**.

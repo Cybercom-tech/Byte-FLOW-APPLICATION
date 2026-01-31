@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "6952119269f77c3e495f954a",
+    "name": "Content Moderator",
+    "email": "admin@byteflow.com",
+    "password": "$2b$10$oHgyEsIXwTsAAuXJBIwbG.mypA9a7YG9FAjs4Vrtf78dp75OVZXl6",
+    "userType": "admin",
+    "__v": 0
+  },
+  {
+    "_id": "6952119269f77c3e495f954f",
+    "name": "Payment Administrator",
+    "email": "payment@byteflow.com",
+    "password": "$2b$10$Vzy/ivy7xX8km821VNK7OOsDwHOtvCLLOvVro8ylROuU6OjgVVK/6",
+    "userType": "admin",
+    "__v": 0
+  },
+  {
+    "_id": "6952125168adf39f123d1b5a",
+    "name": "laiba",
+    "email": "l@gmail.com",
+    "password": "$2b$10$QYfQYgdRNOwE8fOcOU31wOihgJuCXFfdJKn3zlWgh.wHO9KrPHL/.",
+    "userType": "student",
+    "__v": 0
+  },
+  {
+    "_id": "6952175030b7262b13d5e66a",
+    "name": "nimra",
+    "email": "n@gmail.com",
+    "password": "$2b$10$oXsat1YF0NFDyv967.VZjuDaG59BbCvz0dnTWJUdnVqRix/v0FVHW",
+    "userType": "teacher",
+    "__v": 0
+  }
+]

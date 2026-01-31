@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "6952119269f77c3e495f954c",
+    "userId": "6952119269f77c3e495f954a",
+    "adminType": "general",
+    "permissions": [],
+    "createdAt": "2025-12-29T05:28:50.600Z",
+    "updatedAt": "2025-12-29T05:28:50.600Z",
+    "__v": 0
+  },
+  {
+    "_id": "6952119269f77c3e495f9551",
+    "userId": "6952119269f77c3e495f954f",
+    "adminType": "payment",
+    "permissions": [],
+    "createdAt": "2025-12-29T05:28:50.894Z",
+    "updatedAt": "2025-12-29T05:28:50.894Z",
+    "__v": 0
+  }
+]

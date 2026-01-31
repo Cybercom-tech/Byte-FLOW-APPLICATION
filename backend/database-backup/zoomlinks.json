@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "6954b549b53fe9bcfe8ac2d1",
+    "courseId": "1",
+    "zoomLink": "chatgpt.com",
+    "meetingId": "67890-",
+    "password": "gbnhmj,kl.",
+    "date": "2026-01-01",
+    "time": "11:31",
+    "createdAt": "2025-12-31T05:31:53.555Z",
+    "updatedAt": "2025-12-31T05:31:53.555Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954bcd075be9bc43e59bdf9",
+    "courseId": "2",
+    "zoomLink": "abc.com",
+    "meetingId": "345678",
+    "password": "rtgyhjukl;'",
+    "date": "2025-12-31",
+    "time": "",
+    "createdAt": "2025-12-31T06:04:00.271Z",
+    "updatedAt": "2025-12-31T06:04:00.271Z",
+    "__v": 0
+  }
+]
