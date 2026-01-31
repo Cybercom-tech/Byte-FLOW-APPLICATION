@@ -253,62 +253,20 @@ Use these **only** in development/testing. Change them in production.
 
 - **Login page:** `/training/admin-auth` → select **Payment Admin**.
 - **Email:** `payment@byteflow.com`  
-  (alternative: `paymentadmin`)
+
 - **Password:** `payment123`  
-  (alternative: `payment`)
+ 
 - **Created by:** Run in backend: `node src/scripts/createAdmin.js` (creates both admin accounts in the database).
 
 ### General Admin
 
 - **Login page:** `/training/admin-auth` → select **General Admin**.
 - **Email:** `admin@byteflow.com`  
-  (alternatives: `admin`, `moderator@byteflow.com`)
+
 - **Password:** `admin123`  
-  (alternative: `admin`)
+
 - **Created by:** Same script: `node src/scripts/createAdmin.js`.
 
 ---
 
-## Quick Reference – Who Can Do What
 
-| Feature | Student | Teacher | Payment Admin | General Admin |
-|--------|---------|---------|----------------|----------------|
-| Browse catalog | ✅ | ✅ | ❌ | ❌ |
-| Enroll & checkout | ✅ | ❌ | ❌ | ❌ |
-| Student dashboard, progress | ✅ | ❌ | ❌ | ❌ |
-| Write review (after completion) | ✅ | ❌ | ❌ | ❌ |
-| Chat with teacher/students | ✅ | ✅ | ❌ | ❌ |
-| Create/edit courses, submit for approval | ❌ | ✅ | ❌ | ✅ (create/edit) |
-| Teacher dashboard, Zoom, messages | ❌ | ✅ | ❌ | ❌ |
-| Verify / reject payments | ❌ | ❌ | ✅ | ❌ |
-| Course moderation (approve/reject) | ❌ | ❌ | ❌ | ✅ |
-| User management (block/unblock) | ❌ | ❌ | ❌ | ✅ |
-| Certificate management (mark sent) | ❌ | ❌ | ❌ | ✅ |
-| Payment overview (read-only) | ❌ | ❌ | ❌ | ✅ |
-
----
-
-## Routes Summary
-
-| Route | Role | Purpose |
-|------|------|--------|
-| `/training` | All | Training welcome/landing |
-| `/training/auth` | All | Login / Sign up (student & teacher) |
-| `/training/admin-auth` | Admin | Admin login (Payment or General) |
-| `/training/catalog` | All | Course catalog |
-| `/training/course/:id` | All | Course detail, enroll (student) |
-| `/training/checkout/:id` | Student | Checkout & payment (e.g. bank + screenshot) |
-| `/training/student` | Student | Student dashboard (enrollments, progress) |
-| `/training/teacher/:id` | All | Teacher public profile, reviews |
-| `/training/teacher-dashboard` | Teacher | Dashboard (courses, students, Zoom, messages) |
-| `/training/teacher-courses` | Teacher | Manage/create/edit courses |
-| `/training/onboarding` | Teacher | Teacher onboarding/profile |
-| `/training/payment-management` | Payment Admin | Verify/reject payments |
-| `/training/payment-overview` | General Admin | Payment overview (read-only) |
-| `/training/course-moderation` | General Admin | Approve/reject teacher courses |
-| `/training/user-management` | General Admin | Users list, block/unblock |
-| `/training/certificate-management` | General Admin | Certificate requests, mark sent |
-
----
-
-*Last updated to match the current codebase: roles, routes, and features as implemented for Student, Teacher, Payment Admin, and General Admin.*
